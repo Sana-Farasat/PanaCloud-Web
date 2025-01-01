@@ -1,64 +1,781 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Panacloud Website</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js" integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</head>
-<body>
-    <div class="imgDiv">
-        <img src="/pictures/image01.png" alt="">
-    </div>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"
+      integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- <div class="imgDiv">
+      <img src="/pictures/image01.png" alt="" />
+      <img src="/pictures/image02.png" alt="" />
+    </div> -->
 
     <header>
-        <div class="headerTopDiv">
-            <div class="socialIconDiv">
-                <div class="circleIcon">
-                    <box-icon name='facebook-square' type='logo' color='#ffffff' ></box-icon>
-                </div>
-                <div class="circleIcon">
-                    <box-icon name='twitter' type='logo' color='#ffffff' ></box-icon>
-                </div>
-                <div class="circleIcon">
-                    <box-icon type='logo' name='gmail' color='#ffffff'></box-icon>
-                </div>
-                <div class="circleIcon">
-                    <box-icon type='logo' name='linkedin' color='#ffffff'></box-icon>
-                </div>
-                <div class="circleIcon">
-                    <box-icon type='logo' name='youtube' color='#ffffff'></box-icon>
-                </div>
-            </div>
-
-            <div class="phoneDiv">
-                <box-icon name='phone' type='solid' rotate='270' color='#8ec63f' ></box-icon>
-                <p>+92(304)386-6719</p>
-
-                <box-icon name='phone' type='solid' rotate='270' color='#8ec63f' ></box-icon>
-                <p>+92(317)011-3001</p>
-
-                <button class="callButton">CALL ME BACK</button>
-            </div>
+      <div class="headerTopDiv">
+        <div class="socialIconDiv">
+          <div class="circleIcon">
+            <box-icon
+              name="facebook-square"
+              type="logo"
+              color="#ffffff"
+            ></box-icon>
+          </div>
+          <div class="circleIcon">
+            <box-icon name="twitter" type="logo" color="#ffffff"></box-icon>
+          </div>
+          <div class="circleIcon">
+            <box-icon type="logo" name="gmail" color="#ffffff"></box-icon>
+          </div>
+          <div class="circleIcon">
+            <box-icon type="logo" name="linkedin" color="#ffffff"></box-icon>
+          </div>
+          <div class="circleIcon">
+            <box-icon type="logo" name="youtube" color="#ffffff"></box-icon>
+          </div>
         </div>
 
-        <nav class="navBar">
-<img src="/pictures/panacloud_logo.png" alt="Logo">
-       
+        <div class="phoneDiv">
+          <box-icon
+            name="phone"
+            type="solid"
+            rotate="270"
+            color="#8ec63f"
+            size="24px"
+          ></box-icon>
+          <pre >+92(304)386-6719</pre>
+
+          <box-icon
+            name="phone"
+            type="solid"
+            rotate="270"
+            color="#8ec63f"
+            size="24px"
+          ></box-icon>
+          <pre>+92(317)011-3001</pre>
+
+          <button class="callButton">CALL ME BACK</button>
+        </div>
+      </div>
+
+      <nav class="navBar">
+        <img src="/pictures/panacloud_logo.png" alt="Logo" />
 
         <ul class="navList">
-            <li><a href="#">WHY US</a> </li>
-            <li><a href="#">ABOUT US</a> </li>
-            <li><a href="#">SERVICES</a> </li>
-            <li><a href="#">PORTFOLIO</a> </li>
-            <li><a href="#">PROCESS</a> </li>
-            <li><a href="#">REVIEWS</a> </li>
-            <li><a href="#">OUR SKILLS</a> </li>
-            <li><a href="#">CONTACT US</a> </li>
+          <li><a href="#">WHY US</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#">PROCESS</a></li>
+          <li><a href="#">REVIEWS</a></li>
+          <li><a href="#">OUR SKILLS</a></li>
+          <li><a href="#">CONTACT US</a></li>
         </ul>
-
-    </nav>
+      </nav>
     </header>
-</body>
+
+    <div class="sliderImgDiv">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/pictures/green-background.png" />
+            <div class="imgContent">
+              <div class="imgContentTopDiv">
+                <div class="leftDiv"></div>
+                <h1>WE ARE EXPERTS</h1>
+                <div class="rightDiv"></div>
+              </div>
+              <div class="imgContentBottomDiv">
+                <pre>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor 
+    ab beatae maxime obcaecati a laudantium iste dolorum ea exercitationem!
+               </pre
+                >
+                <div class="btnDiv">
+                  <button>READ MORE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/pictures/sir-zia.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/pictures/ai.jpg" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <div class="advantageDiv">
+      <div class="advTop">
+        <h1><span class="sp1">OUR</span> ADVANTAGES</h1>
+
+        <pre>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi beatae vitae 
+  laboriosam eius officia possimus nostrum ipsum laborum commodi?</pre
+        >
+      </div>
+
+      <div class="bottomIcons">
+        <div class="iconsDiv">
+          <div class="roundDiv">
+            <img src="/pictures/bulb.png" alt="Bulb" />
+          </div>
+          <h1 class="iconH1">INNOVATION</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            recusandae id.
+          </p>
+        </div>
+        <div class="iconsDiv">
+          <div class="roundDiv">
+            <img src="/pictures/like.png" alt="Bulb" />
+          </div>
+          <h1 class="iconH1">QUALITY</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            recusandae id.
+          </p>
+        </div>
+        <div class="iconsDiv">
+          <div class="roundDiv">
+            <img src="/pictures/clock.png" alt="Bulb" />
+          </div>
+          <h1 class="iconH1">EXPERIENCE</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            recusandae id.
+          </p>
+        </div>
+        <div class="iconsDiv">
+          <div class="roundDiv">
+            <img src="/pictures/peoples.png" alt="Bulb" />
+          </div>
+          <h1 class="iconH1">HAPPY CLIENTS</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            recusandae id.
+          </p>
+        </div>
+        <div class="iconsDiv">
+          <div class="roundDiv">
+            <img src="/pictures/msg.png" alt="Bulb" />
+          </div>
+          <h1 class="iconH1">SUPPORT</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            recusandae id.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="aboutUsDiv">
+      <div style="text-align: center">
+        <h1><span class="sp1">ABOUT</span> US</h1>
+      </div>
+
+      <div class="paraDiv">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus, ullam cumque esse facere porro expedita quaerat
+          laboriosam distinctio explicabo sequi nemo fuga velit magni a
+          provident ducimus beatae qui
+        </p>
+
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+          quos consequuntur expedita obcaecati nostrum excepturi natus itaque
+          saepe eligendi totam consequatur unde, dolorum praesentium maxime
+          molestiae tempora.totam consequatur unde, dolorum praesentium maxime
+          molestiae
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsa rem
+          explicabo minus, ea magnam repellat asperiores libero officiis aliquid
+          totam consequatur, ratione temporibus at reiciendis animi dicta maxime
+          enim inventore dolore! Recusandae aspernatur vel quod iste itaque
+          quidem, at molestias praesentium impedit deserunt sit minus, natus
+          ducimus beatae a.minus, natus ducimus beatae a.natus ducimus beatae
+          a.minus, natus ducimus beatae a.
+        </p>
+      </div>
+
+      <div class="btnDiv">
+        <button>READ MORE</button>
+      </div>
+    </div>
+
+    <div class="servicesDiv">
+      <div class="servicesDivTop">
+        <h1><span class="sp1">OUR</span> SERVICES</h1>
+
+        <pre>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi beatae 
+vitae laboriosam eius vitae laboriosam eius laborum  </pre
+        >
+      </div>
+
+      <div class="serviceCards">
+        <div class="card">
+          <div class="yellowCircle">
+            <img src="/pictures/star.png" alt="star" />
+          </div>
+
+          <div class="starCardText">
+            <h3>WEB DESIGN</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              fuga hic enim Voluptatibus!.
+            </p>
+            <p class="read-more">read more</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="yellowCircle">
+            <img src="/pictures/star.png" alt="star" />
+          </div>
+
+          <div class="starCardText">
+            <h3>GRAPHICS DESIGN</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              fuga hic enim Voluptatibus!.
+            </p>
+            <p class="read-more">read more</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="yellowCircle">
+            <img src="/pictures/star.png" alt="star" />
+          </div>
+
+          <div class="starCardText">
+            <h3>BRANDING</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              fuga hic enim Voluptatibus!.
+            </p>
+            <p class="read-more">read more</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="yellowCircle">
+            <img src="/pictures/star.png" alt="star" />
+          </div>
+
+          <div class="starCardText">
+            <h3>MARKETING</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              fuga hic enim Voluptatibus!.
+            </p>
+            <p class="read-more">read more</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="portfolio-Div">
+        <h1>OUR <span>PORTFOLIO</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolore
+          sapiente aspernatur <br />
+          modi quam, sint minus, facilis et fuga hic enim Voluptatibus!
+        </p>
+      </div>
+
+      <div class="portfolio-list">
+        <ul>
+          <li><a href="#">WEB DESIGN</a></li>
+          <li><a href="#">GRAPHIC DESIGN</a></li>
+          <li><a href="#">BRANDING</a></li>
+          <li><a href="#">LOGO</a></li>
+          <li><a href="#">MARKETTING</a></li>
+          <li><a href="#">ADVERTISMENT</a></li>
+        </ul>
+      </div>
+
+      <div class="portfolio-images">
+        <img
+          src="/pictures/horse.png"
+          alt="horse"
+          style="background-color: white"
+        />
+        <img
+          src="/pictures/social tree.png"
+          alt="tree"
+          style="background-color: #5e5e5e"
+        />
+        <img
+          src="/pictures/creative brain.png"
+          alt="brain"
+          style="background-color: #d2d3d5"
+        />
+        <img
+          src="/pictures/Team success.png"
+          alt="team"
+          style="background-color: #838383"
+        />
+        <img
+          src="/pictures/rhino.png"
+          alt="rhino"
+          style="background-color: white"
+        />
+      </div>
+
+      <div class="portfolio-images">
+        <img
+          src="/pictures/hands.png"
+          alt="hands"
+          style="background-color: #a3a3a3"
+        />
+        <img
+          src="/pictures/brain.png"
+          alt="brain"
+          style="background-color: #d2d3d5"
+        />
+        <img
+          src="/pictures/lion.png"
+          alt="lion"
+          style="background-color: white"
+        />
+        <img
+          src="/pictures/growth.png"
+          alt="growth"
+          style="background-color: #a3a3a3"
+        />
+        <img
+          src="/pictures/tag line.png"
+          alt="tag"
+          style="background-color: #5e5e5e"
+        />
+      </div>
+    </div>
+
+    <div class="processDiv">
+      <h1><span style="color: #000">OUR </span>PROCESS</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolore
+        sapiente aspernatur <br />
+        modi quam, sint minus, facilis et fuga hic enim Voluptatibus!
+      </p>
+      <div class="processIconsDiv">
+        <div class="iconDiv">
+          <div class="circleDiv">
+            <img src="/pictures/phone.png" alt="Phone" />
+            <div class="countRoundDiv">1</div>
+          </div>
+          <h4>REQUEST CALL</h4>
+          <p>Lorem ipsum dolor sit amet adipisicing</p>
+        </div>
+
+        <div class="iconDiv">
+          <div class="circleDiv">
+            <img src="/pictures/message.png" alt="Phone" />
+            <div class="countRoundDiv">2</div>
+          </div>
+          <h4>CONSULTATION</h4>
+          <p>Lorem ipsum dolor sit amet adipisicing</p>
+        </div>
+
+        <div class="iconDiv">
+          <div class="circleDiv">
+            <img src="/pictures/planning.png" alt="Phone" />
+            <div class="countRoundDiv">3</div>
+          </div>
+          <h4>PLANNING</h4>
+          <p>Lorem ipsum dolor sit amet adipisicing</p>
+        </div>
+
+        <div class="iconDiv">
+          <div class="circleDiv">
+            <img src="/pictures/gear.png" alt="Phone" />
+            <div class="countRoundDiv">4</div>
+          </div>
+          <h4>WORD PROCESS</h4>
+          <p>Lorem ipsum dolor sit amet adipisicing</p>
+        </div>
+
+        <div class="iconDiv">
+          <div class="circleDiv">
+            <img src="/pictures/pencil.png" alt="Phone" />
+            <div class="countRoundDiv">5</div>
+          </div>
+          <h4>CORRECTING</h4>
+          <p>Lorem ipsum dolor sit amet adipisicing</p>
+        </div>
+
+        <div class="iconDiv">
+          <div class="circleDiv">
+            <img src="/pictures/deliver.png" alt="Phone" />
+            <div class="countRoundDiv">6</div>
+          </div>
+          <h4>DELIVER</h4>
+          <p>Lorem ipsum dolor sit amet adipisicing</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="peopleDiv">
+      <h1><span style="color: #000">PEOPLE </span>ABOUT US</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolore
+        sapiente aspernatur <br />
+        modi quam, sint minus, facilis et fuga hic enim Voluptatibus!
+      </p>
+
+      <div class="peopleBottomDiv">
+        <div
+          class="peopleProfileDiv"
+          style="
+            border-right: 4px solid #838383;
+            border-bottom: 4px solid #838383;
+          "
+        >
+          <div class="profileDiv">
+            <img src="/pictures/picture-profile.jpg" alt="Profile" />
+          </div>
+          <div class="peopleReview">
+            <h4>JOHN DOE</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Obcaecati a soluta provident dolorum fuga illo, deleniti eum
+              tempora placeat minima minima
+            </p>
+          </div>
+        </div>
+
+        <div class="peopleProfileDiv" style="border-bottom: 4px solid #838383">
+          <div class="profileDiv">
+            <img src="/pictures/picture-profile.jpg" alt="Profile" />
+          </div>
+          <div class="peopleReview">
+            <h4>JOHN DOE</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Obcaecati a soluta provident dolorum fuga illo, deleniti eum
+              tempora placeat minima minima
+            </p>
+          </div>
+        </div>
+
+        <div class="peopleProfileDiv" style="border-right: 4px solid #838383">
+          <div class="profileDiv">
+            <img src="/pictures/picture-profile.jpg" alt="Profile" />
+          </div>
+          <div class="peopleReview">
+            <h4>JOHN DOE</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Obcaecati a soluta provident dolorum fuga illo, deleniti eum
+              tempora placeat minima minima
+            </p>
+          </div>
+        </div>
+
+        <div class="peopleProfileDiv">
+          <div class="profileDiv">
+            <img src="/pictures/picture-profile.jpg" alt="Profile" />
+          </div>
+          <div class="peopleReview">
+            <h4>JOHN DOE</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Obcaecati a soluta provident dolorum fuga illo, deleniti eum
+              tempora placeat minima minima
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skillsDiv">
+      <h1><span style="color: #000">OUR </span>SKILLS</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolore
+        sapiente aspernatur <br />
+        modi quam, sint minus, facilis et fuga hic enim Voluptatibus!
+      </p>
+      <div class="skillsCircleDiv">
+        <div class="progressCard">
+          <div class="progressDiv" style="border: 4px solid #fe831d">
+            <div
+              class="progressDivTop"
+              style="
+                background: conic-gradient(
+                  transparent 56%,
+                  #febd19 56%,
+                  #febd19 56%,
+                  #febd19 100%
+                );
+              "
+            >
+              <div class="progressDivTop-Inner" style="color: #fe831d">45%</div>
+            </div>
+          </div>
+          <h2>MARKETING</h2>
+        </div>
+
+        <div class="progressCard">
+          <div class="progressDiv" style="border: 4px solid #ec7d76">
+            <div
+              class="progressDivTop"
+              style="
+                background: conic-gradient(
+                  transparent 33%,
+                  #ef4135 33%,
+                  #ef4135 60%,
+                  #ef4135 100%
+                );
+              "
+            >
+              <div class="progressDivTop-Inner" style="color: #ec7d76">60%</div>
+            </div>
+          </div>
+          <h2>SEO AN ADS</h2>
+        </div>
+
+        <div class="progressCard">
+          <div class="progressDiv" style="border: 4px solid #668e19">
+            <div
+              class="progressDivTop"
+              style="
+                background: conic-gradient(
+                  transparent 25%,
+                  #8dc73f 25%,
+                  #8dc73f 25%,
+                  #8dc73f 100%
+                );
+              "
+            >
+              <div class="progressDivTop-Inner" style="color: #668e19">75%</div>
+            </div>
+          </div>
+          <h2>BRANDING</h2>
+        </div>
+
+        <div class="progressCard">
+          <div class="progressDiv" style="border: 4px solid #000">
+            <div
+              class="progressDivTop"
+              style="
+                background: conic-gradient(
+                  transparent 16%,
+                  #000 16%,
+                  #000 18%,
+                  #000 100%
+                );
+              "
+            >
+              <div class="progressDivTop-Inner" style="color: #000">80%</div>
+            </div>
+          </div>
+          <h2>WEB DESIGN</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="projectDiv">
+      <h1>START YOUR NEW PROJECT</h1>
+      <div class="inputDiv">
+        <input type="text" placeholder="YOUR NAME" />
+        <input type="text" placeholder="YOUR EMAIL" />
+        <input type="text" placeholder="YOUR PHONE NUMBER" />
+        <button>SEND REQUEST</button>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+        eius modi incidunt iusto <br />
+        nostrum voluptatum ad error doloremque atque voluptates.
+      </p>
+    </div>
+    <div class="contactDiv">
+      <h1><span style="color: #000">OUR </span>CONTACTS</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolore
+        sapiente aspernatur <br />
+        modi quam, sint minus, facilis et fuga hic enim Voluptatibus!
+      </p>
+      <div class="mapIconDiv">
+        <box-icon
+          name="map"
+          type="solid"
+          color="#4d6d40"
+          size="34px"
+        ></box-icon>
+        <h4 class="contactLorem">
+          Lorem ipsum dolor, sit amet consectetur elit. Deleniti facere nostrum
+          consectetur
+        </h4>
+      </div>
+      <div class="numberDiv">
+        <div style="display: flex">
+          <box-icon name="phone" rotate="270" color="#4d6d40"></box-icon>
+          <pre>  (304) 386 -6719</pre>
+        </div>
+        <div style="display: flex">
+          <box-icon name="phone" rotate="270" color="#4d6d40"></box-icon>
+          <pre>  (317) 011 -3001</pre>
+        </div>
+        <div style="display: flex">
+          <box-icon
+            name="message"
+            type="solid"
+            rotate="180"
+            color="#4d6d40"
+          ></box-icon>
+          <pre>  info@website.com</pre>
+        </div>
+      </div>
+      <div class="contactImgDiv">
+        <!-- <img src="/pictures/map.png" alt=""> -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.4723651394006!2d67.0457450739136!3d24.813514747137216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33c5361ff85a5%3A0x2401821560d53462!2sPanacloud%20Pvt.%20Ltd.%20Pakistan!5e0!3m2!1sen!2s!4v1735598899173!5m2!1sen!2s"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footerDiv1">
+        <img src="/pictures/panacloud_logo.png" alt="Logo" />
+        <br /><br />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+          consectetur consequuntur obcaecati dolorum incidunt magnam.
+        </p>
+        <br /><br /><br /><br />
+        <pre>&copy; Panacloud 2019</pre>
+      </div>
+
+      <div class="footerDiv2">
+        <h4 style="font-size: 24px; font-weight: 800; color: #fff">SERVICES</h4>
+        <br />
+        <ul style="list-style: none">
+          <li><a href="">Lorem ispum</a></li>
+          <li><a href="">Lorem ispum</a></li>
+
+          <li><a href="">Lorem ispum</a></li>
+          <li><a href="">Lorem ispum</a></li>
+          <li><a href="">Lorem ispum</a></li>
+          <li><a href="">Lorem ispum</a></li>
+          <li><a href="">Lorem ispum</a></li>
+        </ul>
+      </div>
+      <div class="footerDiv3">
+        <h4 style="font-size: 24px; font-weight: 800; color: #fff">
+          USEFUL LINKS
+        </h4>
+        <br />
+        <ul style="list-style: none">
+          <li><a href="">Lorem ispum</a></li>
+          <li><a href="">Lorem ispum</a></li>
+          <li><a href="">Lorem ispum</a></li>
+          <li><a href="">Lorem ispum</a></li>
+          <li><a href="">Lorem ispum</a></li>
+          <li><a href="">Lorem ispum</a></li>
+          <li><a href="">Lorem ispum</a></li>
+        </ul>
+      </div>
+
+      <div class="footerDiv4">
+        <h4 style="font-size: 24px; font-weight: 800; color: #fff">CONTACTS</h4>
+        <br />
+        <div>
+          <div style="display: flex">
+            <box-icon
+              name="phone"
+              type="solid"
+              rotate="270"
+              color="#ffffff"
+            ></box-icon>
+            <pre style="color: #fff">+92 (304) 386-6719</pre>
+          </div>
+          <div style="display: flex">
+            <box-icon
+              name="phone"
+              type="solid"
+              rotate="270"
+              color="#ffffff"
+            ></box-icon>
+            <pre style="color: #fff">+92 (304) 386-6001</pre>
+          </div>
+          <div style="display: flex; align-items: center">
+            <box-icon
+              name="message"
+              type="solid"
+              rotate="180"
+              color="#ffffff"
+            ></box-icon>
+            <pre style="color: #fff">info@website.com</pre>
+          </div>
+        </div>
+        <br /><br />
+        <h3
+          style="
+            padding-top: 8px;
+            padding-left: 5px;
+            font-size: 24px;
+            font-weight: 600;
+            color: #fff;
+          "
+        >
+          FOLLOW US
+        </h3>
+        <br />
+        <div style="padding-left: 6px; display: flex; gap: 12px">
+          <box-icon name="facebook" type="logo" color="#161616"></box-icon>
+          <box-icon name="twitter" type="logo" color="#161616"></box-icon>
+          <box-icon name="google" type="logo" color="#161616"></box-icon>
+          <box-icon name="linkedin" type="logo" color="#161616"></box-icon>
+          <box-icon name="youtube" type="logo" color="#161616"></box-icon>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      effect: "fade",
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
 </html>
